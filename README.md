@@ -19,3 +19,7 @@ Once there, click on the checkbox of the policy that was created in the earlier 
 <img width="316" alt="image" src="https://user-images.githubusercontent.com/67756102/183091085-2f605e73-2a9f-4a47-9771-f6ff870fdbe0.png">
 
 Here you will be able to associate your vnets and Hubs from your subscriptions with the Azure Policy. 
+
+Once you have associated your Classic Firewall Vnet's with the new policy it will be able to be managed by Azure Firewall Manager and Azure Firewall Policy. 
+
+<img width="434" alt="image" src="https://user-images.githubusercontent.com/67756102/183092361-69e7c796-9a87-4f81-959e-ddb88523d36f.png">
