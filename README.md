@@ -14,7 +14,7 @@ Firewall Policy is a central component of Azure Firewall Manager and can consist
 Once a Firewall policy is created you can apply them to Firewalls. The policies can be associated to one or more virtual networks and virtual hubs. 
 
 
-A scenario that would benefit from Azure Firewall Manager
+Customer Profile
 
 A company may have resources in Azure that are distributed accross many Azure Virtual Networks. To protect those resources, an Azure Firewall may be deployed in a single instance. Over time the needs of the company may grow, and they may choose to implement additional Firewalls. As the complexity of the networking resources in Azure develop, the company may look for a more simplified way to manage multiple Firewalls, this is where Azure Firewall Manager assists. 
 
