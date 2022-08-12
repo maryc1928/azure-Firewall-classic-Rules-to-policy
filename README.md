@@ -43,6 +43,8 @@ Policies are billed on the number of firewall associations with each policy. A p
 
 <h2> How to Migrate a Firewall with Azure Firewall Classic rules to Azure Firewall using Azure Firewall Manager Policy </h2>
 
+Using this method can ensure the migration of classic rules to Azure Firewall Policy with zero downtime. 
+
 Firstly, follow the steps in this guide to migrate an existing Firewall configurations to an Azure Firewall Policy resource using a Powershell Script. 
 https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/firewall-manager/migrate-to-policy.md 
 
