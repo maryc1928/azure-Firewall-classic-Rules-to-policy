@@ -31,7 +31,7 @@ Standard policy provides features such as:
 * Web categories
 * Threat Intelligence
 
-*Premium Policy features include all of the standard rules, and additionally: 
+Premium Policy features include all of the standard rules, and additionally: 
 * TLS Inspection
 * URL Filtering
 * IDPS
