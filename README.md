@@ -12,20 +12,33 @@ Azure Firewall Policies can span multiple Firewall instances in both Secured Vir
 
 <h2> What is Azure Firewall Manager? </h2>
 
+Azure Firewall Manager is a security management services that provides centralised security policy and route management for cloud-based security perimeters. Firewall Manager can provide security management for two network architecture types, secured virtual hub and hub virtual network. 
+
 Azure Firewall Manager centralises the management of Firewalls into a single view and allows organisations to apply a single Firewall Policy to many Firewalls. 
-This allows the configuration updates of Azure Firewalls to span across many Firewall's as opposed to updating each Firewall individual which can result in a management overhead. 
+This allows the configuration updates of Azure Firewalls to span across many Firewall's in different regions and subscriptions as opposed to updating each Firewall individual which can result in a management overhead. 
 
 <h2> What is a Firewall Policy? </h2>
 
 Firewall Policy is a central component of Azure Firewall Manager and can consist of NAT settings, Network rule collections, Application Rule Collections and Threat Intelligence settings. 
 
-Once a Firewall policy is created you can apply them to Firewalls. The policies can be associated to one or more virtual networks and virtual hubs. 
+Once a Firewall policy is created you can apply them to Firewalls across regions, for example you could create a policy in the West US region and use it in East Us. The policies can be associated to one or more virtual networks and virtual hubs. 
 
-<h2> Considerations for Azure Firewall Manager </h2>
+Azure Firewall supports Standard and Premium Policies. 
+Standard policy provides features such as: 
+* NAT rule, Network rules, Application Rules.
+* Custom DNS, and DNS Proxy
+* IP Groups
+* Web categories
+* Threat Intelligence
 
-<h3> Cost </h3> 
+*Premium Policy features include all of the standard rules, and additionally: 
+* TLS Inspection
+* URL Filtering
+* IDPS
 
+<h2> Cost </h2> 
 
+Policies are billed on the number of firewall associations with each policy. A policy with zero or one firewall association is free of charge and a policy with multiple firewall associations is billed at a fixed rate of $100 per policy, per region. 
 
 
 <h2> How to Migrate a Firewall with Azure Firewall Classic rules to Azure Firewall using Azure Firewall Manager Policy </h2>
